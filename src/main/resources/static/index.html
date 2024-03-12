@@ -1,6 +1,161 @@
 <html>
+<meta charset="utf-8" />
+
+<style>
+    *{
+        background-color: bisque;
+        /*background-image: url("bbb.webp");*/
+        /*background-repeat: revert;*/
+    }
+    p {
+        color: red;
+        font-family: "隶书";
+        font-size: 19px;
+
+    }
+    h1 {
+        margin-top: 990px;
+        padding-left: 990px;
+        float: bottom;
+    }
+    #tabs {
+        float: left;
+    }
+
+    #tabs li{
+        float: left;
+        margin-left: 1px;
+    }
+
+    .span1 {
+        max-height: 500px ;
+        max-width:  400px ;
+        position: relative;
+        display: block;
+        left: 0px;
+        background-color: aquamarine;
+    }
+
+
+    /*.title b{*/
+    /*    color: yellow;*/
+    /*    font-family: "隶书";*/
+    /*    font-size: 20px;*/
+    /*    background-color: bisque;*/
+    /*    background-repeat:repeat-y;*/
+    /*    background-position;*/
+    /*    background-repeat:repeat-y;*/
+    /*}*/
+</style>
 <body>
 <h1>hello word!!!</h1>
-<p>this is a html page</p>
+<h2>hello word!!!</h2>
+<p class="title">this is a html <br/>page</p>
+<center>luck girL</center>
+<a name="锚点自定义名称"><a/>
+    <!-- 有序列表 -->
+<ol>
+    <li><b><i><u><sup>苹aaaa果</sup></u></i></b></li>
+    <li><sub>橘子</sub></li>
+    <li>荷花</li>
+    <li>火龙果</li>
+</ol>
+    <!-- 无序列表 -->
+<ul id="tabs">
+    <li><a href="#"><img class="span1" src="aaa.jpg" title="小苹果" ></img></a></li>
+    <li><a href="#"><img class="span1" src="aaa.jpg" title="小苹果" ></img></a></li>
+
+    <li><a href="#"><img class="span1" src="ccc.webp" ></img></a></li>
+    <li><a href="#"><img class="span1" src="ccc.webp" ></img></a></li>
+    <li><a href="#"><img class="span1" src="ddd.jpg"></img></a></li>
+    <li><a href="#"><img class="span1"  src="eee.webp"></img></a></li>
+</ul>
+<dl>
+<dt>
+    动物
+</dt>
+    <dd>猴子</dd>
+    <dd>大象</dd>
+    <dd>野猪</dd>
+    <dd>蠢驴</dd>
+
+</dl>
+<!-- 锚点 -->
+    <div>的的的的的的的的的的的的的的的的的的的的</div>
+    <div>的的的的的的的的的的的的的的的的的的的的</div>
+
+    <a href="#锚点自定义名称">返回顶部</a>
+    <!-- 横线 -->
+<hr />
+
+    <!-- 表格 -->
+    <table width="400px" height="500px" border="" cellpadding="0" cellspacing="0" bgcolor="#f5f5dc" align="left">
+        <tr>
+            <td>bb</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>bbb</td>
+            <td>gg</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
+
+
+    </table>
+    <!-- 表单 -->
+    <form action="index.html" method="">
+       用户名称 : <input type="text" name="username" /><br/>
+       密码: <input type="password" name="passwd" /><br/>
+       文件上传: <input type="file" name="file" /><br/>
+
+        <button type="submit">登录 </button>
+    </form>
+    <!-- 多行文本狂 -->
+    <textarea name="aaa" cols="50" rows="50">666</textarea>
+    <select name="country" >
+        <option name="中国">中国</option>
+        <option name="新加坡" selected>新加坡</option>
+        <option name="美国">美国</option>
+        <option name="德国">德国</option>
+    </select>
 </body>
 </html>
+
+<!--<html>-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>抽奖动画</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<canvas id="myCanvas" width="600" height="400"></canvas>-->
+<!--<script>-->
+<!--    var canvas = document.getElementById("myCanvas");-->
+<!--    var ctx = canvas.getContext("2d");-->
+<!--    var x = canvas.width / 2;-->
+<!--    var y = canvas.height / 2;-->
+<!--    var radius = 100;-->
+<!--    var startAngle = 0;-->
+<!--    var endAngle = 2 * Math.PI;-->
+<!--    var colors = ["#00ff00", "#ff0000", "#0000ff", "#ffff00", "#00ffff"];-->
+<!--    for(var i=0; i<5; i++){-->
+<!--        ctx.beginPath();-->
+<!--        ctx.arc(x, y, radius, startAngle, endAngle);-->
+<!--        ctx.strokeStyle = colors[i];-->
+<!--        ctx.lineWidth = 10;-->
+<!--        ctx.stroke();-->
+<!--        radius += 20;-->
+<!--    }-->
+
+<!--    let a;-->
+<!--    let b,c,d;-->
+<!--    a = 'aaa';-->
+<!--    b = 'aaa';-->
+
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
